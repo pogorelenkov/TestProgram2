@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="510.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PersonInformation">
+   <children>
+      <VBox layoutX="280.0" layoutY="93.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="237.0" prefWidth="510.0">
+               <children>
+                  <Label layoutX="46.0" layoutY="37.0" text="Ім'я:" textFill="WHITE" AnchorPane.leftAnchor="20.0">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="106.0" text="Прізвище:" textFill="WHITE" AnchorPane.leftAnchor="20.0">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="178.0" text="Клас:" textFill="WHITE" AnchorPane.leftAnchor="20.0">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldName" layoutX="159.0" layoutY="37.0" prefHeight="36.0" prefWidth="337.0" AnchorPane.leftAnchor="159.0" AnchorPane.rightAnchor="14.0" />
+                  <TextField fx:id="textFieldSername" layoutX="159.0" layoutY="106.0" prefHeight="36.0" prefWidth="337.0" AnchorPane.leftAnchor="159.0" AnchorPane.rightAnchor="14.0" />
+                  <TextField fx:id="textFieldClass" layoutX="159.0" layoutY="178.0" prefHeight="36.0" prefWidth="337.0" AnchorPane.leftAnchor="159.0" AnchorPane.rightAnchor="14.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="86.0" prefWidth="510.0">
+               <children>
+                  <Button fx:id="buttonConfirm" layoutX="322.0" layoutY="13.0" mnemonicParsing="false" onAction="#buttonConfirm_Event" prefHeight="49.0" prefWidth="161.0" text="Confirm" AnchorPane.bottomAnchor="13.0" AnchorPane.rightAnchor="14.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
